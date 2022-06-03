@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+.navbar{
+  font-family: 'Poppins', sans-serif;
+  height: 45px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(17, 0, 100);
+}
+.navbar-brand{
+  width: 15%;
+  /* background-color: red; */
+  height: 100%;
+  font-weight: 900;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-cont{
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  height: 70%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navlists{
+  width: 80%;
+  list-style: none;
+  display: flex;
+  justify-content: end;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navlinks{
+  padding: 2px 1rem;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.links{
+  color: aliceblue;
+  text-decoration: none;
+}
+.burgermenu{
+  width: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+}
+.line{
+  height: 4px;
+  width: 75%;
+  border-radius: 2px;
+  background: #fff;
+  margin: 2px 0px;
+}
+.media-css{
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
