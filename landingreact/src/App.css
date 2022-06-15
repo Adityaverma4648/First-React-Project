@@ -1,14 +1,14 @@
 .navbar{
   font-family: 'Poppins', sans-serif;
   height: 45px;
-  width: 100vw;
+  max-width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(17, 0, 100);
 }
 .navbar-brand{
-  width: 15%;
+  width: 10%;
   /* background-color: red; */
   height: 100%;
   font-weight: 900;
@@ -18,18 +18,50 @@
   justify-content: center;
 }
 .icon-cont{
-  width: 5%;
+  width: 15%;
+  /* background-color: red; */
   height: 100%;
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+}
+.icon{
+  height: 45%;
+}
+.icon a{
+   height: 100%;
+}
+.icon span{
+  height: 100%;
+  cursor: pointer;
+  padding: 10px;
+}
+#cart , #search{
+  height: 100%;
+}
+form input{
+  background-color: rgba(255, 255, 255,0.4); 
+  padding:6px 3px;
+  margin: 0px 2px;
+}
+.search-form{
+   display: none;
+}
+.search-form-cont{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.icon{
-  height: 70%;
+form{
+  display:flex;
 }
-
+.submit-btn{
+   background-color: #fff;
+   border : none;
+   padding:6px 3px;
+}
 .navlists{
-  width: 80%;
+  width: 60%;
   list-style: none;
   display: flex;
   justify-content: end;
@@ -52,7 +84,7 @@
 }
 .line{
   height: 4px;
-  width: 75%;
+  width: 70%;
   border-radius: 2px;
   background: #fff;
   margin: 2px 0px;
@@ -62,4 +94,6 @@
 }
 
 
+
+/* navbar styles ends here */
 

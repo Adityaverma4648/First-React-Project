@@ -1,5 +1,9 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import './App.css';
+import shopingCart from './shopping-cart.png';
+import search from './search.png';
+
 
 function Navbar() {
     return (
@@ -15,25 +19,42 @@ function Navbar() {
                    </li>
                    <li className="navlinks">
                        <a href="#" className="links">
-                           About
+                           Services
                         </a>
                    </li>
                    <li className="navlinks">
                        <a href="#" className="links">
-                           Contacts
+                           Products
                        </a>
                    </li>
                    <li className="navlinks">
                        <a href="#" className="links">
-                           Services
+                           Login | Register
                        </a>
                    </li>
                </ul>
                <div className="icon-cont">
+               <div className="icon search-form-cont" >
+
+                          <div className="search-form" id= "search-form">
+                                   <form action="" >
+                                <input type="text" name='search' placeholder='search' />
+                                <input type="submit" name="submit" value="search" className='submit-btn'/>
+                                   </form>
+                             </div>
+                                  <span>
+                                    <img src={search} alt="shoppingCart"  id="search"/>
+                                    </span>
+   
+                          </div>
+                </div>
                    <div className="icon icon-cart" >
-                       <img src="./image/shopping-cart.png" alt="cart" />
+                      <a href="#">
+                      <img src={shopingCart} alt="shoppingCart" id="cart"/>
+                      </a>
+                      
                    </div>
-               </div>
+                 
                <div className="burgermenu media-css">
                    <span className="line"></span>
                    <span className="line"></span>
